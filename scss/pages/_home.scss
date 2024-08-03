@@ -4,3 +4,27 @@
 .home-bgImg-container {
   @include mixins.bgImages(100vh, veriable.$image1);
 }
+
+.home {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  h2 {
+    font-weight: 400;
+  }
+  &__name {
+    width: 100%;
+    text-align: center;
+    font-size: 5rem;
+    border-bottom: 2px solid veriable.$textColor;
+    padding: 0.5rem;
+    font-weight: 400;
+    &--last {
+      color: red;
+      font-weight: 700;
+    }
+  }
+}
