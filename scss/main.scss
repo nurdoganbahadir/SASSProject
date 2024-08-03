@@ -16,3 +16,10 @@ body {
   font-family: veriable.$fontFamily;
   color: veriable.$textColor;
 }
+a {
+  color: veriable.$textColor;
+  text-decoration: none;
+}
+
+
+//  sass --watch ./scss/main.scss:./css/main.css

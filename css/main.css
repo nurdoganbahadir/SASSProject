@@ -5,6 +5,22 @@
   box-sizing: border-box;
 }
 
+.listStyle a, .horizontal a {
+  padding: 0.4rem;
+  transition: all 1s;
+}
+.listStyle a:hover, .horizontal a:hover {
+  color: #ff7b00;
+}
+
+.horizontal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 1rem;
+}
+
 .nav {
   height: 10vh;
   font-size: 1.5rem;
@@ -64,6 +80,11 @@ body {
   background-color: #272727;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=main.css.map */

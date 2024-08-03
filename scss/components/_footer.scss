@@ -1,2 +1,21 @@
 @use ".././abstarcts/veriable";
 @use ".././abstarcts/mixins";
+
+.listStyle {
+  a {
+    padding: 0.4rem;
+    @include mixins.hovers(1s);
+    &:hover {
+      color: veriable.$primaryColor;
+    }
+  }
+}
+
+.horizontal {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 1rem;
+  @extend .listStyle;
+}
