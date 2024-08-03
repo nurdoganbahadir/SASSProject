@@ -19,6 +19,7 @@
 .nav__link {
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
   transition: all 0.5s;
 }
 .nav__link--active {
