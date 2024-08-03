@@ -9,6 +9,8 @@
 @use "./pages/home";
 @use "./pages/projects";
 
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css";
+
 body {
   background-color: veriable.$secondaryColor;
   font-family: veriable.$fontFamily;
