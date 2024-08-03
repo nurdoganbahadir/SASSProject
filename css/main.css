@@ -42,7 +42,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
 }
 .home h2 {
   font-weight: 400;
@@ -52,7 +51,6 @@
   text-align: center;
   font-size: 5rem;
   border-bottom: 2px solid white;
-  padding: 0.5rem;
   font-weight: 400;
 }
 .home__name--last {
