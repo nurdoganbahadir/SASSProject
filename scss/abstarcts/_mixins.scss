@@ -1,0 +1,3 @@
+@mixin hovers($hoverTime) {
+  transition: all $hoverTime;
+}

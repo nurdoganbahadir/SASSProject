@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 10vh;
+  font-size: 1.5rem;
+}
+.nav__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem;
+  float: right;
+  padding: 1rem;
+}
+.nav__link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.nav__link--active {
+  color: #ff7b00;
+}
+.nav__link:hover {
+  color: blue;
+}
+
+body {
+  background-color: #272727;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,15 @@
+@use "./abstarcts/mixins";
+@use "./abstarcts/veriable";
+@use "./base/reset";
+@use "./components/footer";
+@use "./components/nav";
+@use "./components/responsive";
+@use "./pages/about";
+@use "./pages/contact";
+@use "./pages/home";
+@use "./pages/projects";
+
+body {
+  background-color: veriable.$secondaryColor;
+  font-family: veriable.$fontFamily;
+}

@@ -1,0 +1,28 @@
+//NAV
+
+@use ".././abstarcts/veriable";
+@use ".././abstarcts/mixins";
+
+.nav {
+  height: 10vh;
+  font-size: 1.5rem;
+  &__list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2rem;
+    float: right;
+    padding: 1rem;
+  }
+  &__link {
+    color: veriable.$textColor;
+    text-decoration: none;
+    @include mixins.hovers(.5s);
+    &--active {
+      color: veriable.$primaryColor;
+    }
+    &:hover {
+      color: blue;
+    }
+  }
+}
