@@ -21,6 +21,28 @@
   padding: 1rem;
 }
 
+.vertical {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  position: relative;
+}
+.vertical .social-icons {
+  position: fixed;
+  bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.vertical .copyright {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  writing-mode: vertical-lr;
+}
+
 .nav {
   height: 10vh;
   font-size: 1.5rem;

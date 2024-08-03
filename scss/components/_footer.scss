@@ -19,3 +19,25 @@
   padding: 1rem;
   @extend .listStyle;
 }
+
+.vertical {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  position: relative;
+  .social-icons {
+    position: fixed;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .copyright {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    writing-mode: vertical-lr;
+  }
+}
