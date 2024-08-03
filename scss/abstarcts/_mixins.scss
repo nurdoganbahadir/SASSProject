@@ -1,3 +1,17 @@
+@use ".././abstarcts/veriable";
+
 @mixin hovers($hoverTime) {
   transition: all $hoverTime;
+}
+@mixin bgImages($heightImg, $bgImage) {
+  height: $heightImg;
+  width: 100%;
+  background: linear-gradient(
+      to right,
+      rgba(veriable.$secondaryColor, 0.9),
+      rgba(veriable.$secondaryColor, 0.3)
+    ),
+    url($bgImage);
+  background-position: center;
+  background-size: cover;
 }

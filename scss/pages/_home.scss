@@ -1,0 +1,6 @@
+@use ".././abstarcts/mixins";
+@use ".././abstarcts/veriable";
+
+.home-bgImg-container {
+  @include mixins.bgImages(100vh, veriable.$image1);
+}
