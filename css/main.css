@@ -74,6 +74,23 @@
   font-weight: 400;
 }
 
+.about {
+  width: 80%;
+  margin: auto;
+}
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about__job {
+  background-color: rgb(80, 80, 80);
+  border-bottom: 5px solid #ff7b00;
+  margin: 1rem;
+  padding: 1rem;
+}
+
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
