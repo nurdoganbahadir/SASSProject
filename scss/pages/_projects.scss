@@ -1,0 +1,15 @@
+@use ".././abstarcts/veriable";
+@use ".././abstarcts/mixins";
+
+.project-bgImg-container {
+  @include mixins.bgImages(40vh, veriable.$image1);
+}
+.projects__bio-image {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  h1{
+    font-weight: 400;
+  }
+}
