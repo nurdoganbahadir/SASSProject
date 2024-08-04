@@ -1,0 +1,29 @@
+@use ".././abstarcts/mixins";
+@use ".././abstarcts/veriable";
+
+.contact-bgImg-container {
+  @include mixins.bgImages(100vh, veriable.$image1);
+}
+.contact {
+  h2 {
+    font-weight: 400;
+  }
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  &__list {
+    margin-top: 1rem;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .text-secondary {
+    color: veriable.$primaryColor;
+  }
+}
