@@ -1,5 +1,5 @@
-@use ".././abstarcts/veriable";
 @use ".././abstarcts/mixins";
+@use ".././abstarcts/veriable";
 
 .project-bgImg-container {
   @include mixins.bgImages(40vh, veriable.$image1);
