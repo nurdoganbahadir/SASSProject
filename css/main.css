@@ -5,11 +5,11 @@
   box-sizing: border-box;
 }
 
-.listStyle a, .horizontal a {
+.listStyle a, .vertical a, .horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.listStyle a:hover, .horizontal a:hover {
+.listStyle a:hover, .vertical a:hover, .horizontal a:hover {
   color: #ff7b00;
 }
 
